@@ -38,4 +38,34 @@ sub_ctrl:
     
 
 
-    
+my_recode:
+  usage - recodes a dataset based on a user defined limit into 1s and 0s
+  input:
+    chemical - the variable to be recoded
+    lim - the limit by which the chemical variable will be compared against
+  outputs:
+    either a 1 or a 0 depending on the relation of chemical to the limit
+
+
+
+normalizeme:
+  usage - normalize a dataframe (likely for input into a PCA)
+  input:
+    df - the dataframe to be normalized
+  outputs:
+    a normalized list of data. Also prints the mean (should be 0) and the standard deviation (should be 1)
+   
+
+
+init_pca:
+  usage - intializes and runs a PCA on normalized data
+  input:
+    components - the number of components the user wants defined in the PCA
+    data - the normalized data the PCA will be run using
+  output:
+    p_Cdf - a dataframe holding the results of the PCA 
+    init - the initial PCA 
+
+
+
+
