@@ -113,3 +113,60 @@ join_buff:
     
     
 
+get_stats:
+    usage - gets statistics from a raster using a polygon and assigns a primary key to the stats
+  inputs:
+    buffer - the polygon used to mask the raster
+    raster - the raster to grab statistics from
+    idfield - the polygon's primary key
+  outputs:
+    dataframe with statistics and each zone's primary key
+   
+   
+ 
+ 
+get_ptst:
+    usage - get value from a raster at a specific point and assign the original points primary key
+  inputs:
+    points - point shapefile 
+    raster - raster to get stats from
+    idfield - point shapefile primary key
+    fieldname - raster value field name
+  outputs:
+    datafrmae with raster value and primary key
+    
+    
+  
+ 
+ drop_corr:
+  usage - drops correlation below correlation limit (note, drops all relationship, better methodology may be to examine correlation in a correlation matrix)
+  inputs:
+    data - dataframe to examine cross correlation
+    corr_lim - correlation limit at which to drop variables
+  outputs:
+    printed list of variables dropped and dataframe without dropped variables
+    
+    
+    
+
+get_corr:
+  usage - gets correlation between several independent variables and a dependent variable in multiple bivariate regressions
+  inputs:
+    df - dataframe with the dependent variable
+    df1 - dataframe with independent variables
+    depend - column name for dependent variable
+  outputs:
+    dataframe showing the results of the regressions
+    
+    
+    
+
+step_reg_back:
+  usage - stepwise linear regression, backwards. starts with full regression and modifies model until it cannot be improved further
+  inputs:
+    y - dependent variable series
+    x - independent varaible series (must have constant value in dataframe)
+    plim - p-value limit, defaults at 0.05
+  outputs:
+    regression with refined formula. 
+    
