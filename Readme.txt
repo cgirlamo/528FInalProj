@@ -170,3 +170,6 @@ step_reg_back:
   outputs:
     regression with refined formula. 
     
+
+
+The last cells of the LUR.ipynb detail how to create an interactive map using your final regression formula in the case of a land use regression. This process is again exploratory and so automating it is not favorable. 
