@@ -1,0 +1,14 @@
+Chemical,Description,Notes,DIST,Angle,Landcover,LC_Desc,1-Methylnaphthalene,1-Methylphenanthrene,1-Methylpyrene,"1,6-Dimethylnaphthalene",2-Methylnaphthalene,2-Methylphenanthrene,"2,4-Di-tert-butylphenol",4-Isopropylphenol,9-Fluorenone,"9,10-Anthraquinone",Anthracene,B-citronellol,Benz[a]anthracene,Benzo[a]fluorene,Benzo[a]pyrene,Benzo[b]fluorene,Benzophenone,Benzothiazole,Biphenyl,Bis(2-ethylhexyl)phthalate,Butyl benzyl phthalate,Caffeine,Chrysene,Di-n-octyl phthalate,Dibenzofuran,Diisobutyl phthalate,Dimethyl phthalate,Exaltolide [15-Pentadecanolide],Fluoranthene,Fluorene,Hydroxy-citronellal,"N,N-Diethyl-m-toluamide",Phthalimide,Pyrene,Quinoline,Retene
+CASRN,NULL,NULL,,,,,90-12-0,832-69-9,2381-21-7,575-43-9,91-57-6,2531-84-2,96-76-4,99-89-8,486-25-9,84-65-1,120-12-7,106-22-9,56-55-3,238-84-6,50-32-8,243-17-4,119-61-9,95-16-9,92-52-4,117-81-7,85-68-7,58-08-2,218-01-9,117-84-0,132-64-9,84-69-5,131-11-3,106-02-5,206-44-0,86-73-7,107-75-5,134-62-3,85-41-6,129-00-0,91-22-5,483-65-8
+CN001,Crow Ctrl ,Opened and closed at site 2&3 on date out and pick up ,,,,,7.32,0,0,0,0,0,47.7,0,0,0,0,0,0,0,0,0,0,38.2,0,0,20.7,0,0,0,0,50.9,0,0,0,0,0,0,41.4,0,0,0
+CN002,Landfill 1,Rain,11.4,-110.1,176,Grassland/Pasture,0,31.8,3.82,0,0,35,30.6,0,66.8,0,197,0,1.27,0,0,0,76.4,0,0,0,0,0,5.41,0,9.23,57.3,0,47.7,0,5.41,0,31.8,0,57.3,66.8,18.8
+CN003,Landfill 2,Rain,18.5,-93.4,176,Grassland/Pasture,9.12,44,25.8,8.81,0,164,75.5,23.9,346,40.9,944,0,19.8,21.7,5.03,2.83,346,0,50.3,1380,0,50.3,23.3,116,0,0,0,293,289,34.6,0,0,0,277,101,170
+CN004,L Bad Bear,Rain,724.6,-113.9,122,Low intensity developed,0,0,0,0,3.25,0,23,0,17.8,0,47.5,0,0,0,0,0,18,0,0,0,0,0,0,20.8,14.5,0,0,62.5,6.5,0,0,0,0,0,10.5,0
+CN005,Father Paul,Rain,320,-164,122,Low intensity developed,4,0,0,0,0,7,0,0,23.3,0,62.5,0,0,0,0,0,27.5,0,0,0,0,0,0,25,12.8,0,0,75,0,6.5,0,0,0,8.5,0,12.3
+CN006,Waste Water Site,Rain,1754.7,-125.6,176,Grassland/Pasture,4.25,0,0,0,0,0,0,0,0,0,19.5,0,0,0,0,0,11.5,25,0,0,0,0,0,37.5,13.5,23.5,0,60,0,0,118,0,0,0,0,0
+CN007,Weather Station,Rain,2804.1,150.5,152,Shrubland,0,0,0,0,0,0,27.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20.2,0,30.4,0,68.3,0,0,0,17.2,0,0,0,0
+CN008,Crow Public School,Rain,994,-151.4,122,Low intensity developed,3.75,0,0,0,0,0,40,0,0,0,22.5,0,0,0,0,0,14,0,0,0,12,0,0,55,16.8,0,7,115,0,0,0,24.5,0,0,0,0
+CN009,Gary Whiteman,Rain,904.8,-179.1,122,Low intensity developed,3.38,0,0,0,0,0,0,0,0,0,17.9,0,0,0,0,0,0,0,0,0,0,0,0,48.3,0,38.6,5.31,84.5,0,0,0,26.6,0,0,0,0
+CN00A,UNM Ctrl,Not opened,,,,,6.05,0,0,0,0,0,35,0,0,0,0,57.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85.9,0,0,0,0,31.8,0,0,0
+CN00B,UNM Ctrl,Opened and added zip tie then reclosed,,,,,7,0,0,0,0,0,38.2,0,0,0,0,63.7,0,0,0,0,0,0,0,0,0,0,0,41.4,0,0,0,140,0,0,0,0,38.2,0,0,0
+CN010,Crow Ctrl ,Not opened shipped back and forth to crow,,,,,2,0,0,0,0,0,23.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19.8,0,32.5,0,60,0,0,0,0,0,0,0,0
