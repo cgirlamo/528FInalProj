@@ -68,4 +68,34 @@ init_pca:
 
 
 
-
+scatter_pca:
+  usage - creates a scatter plot of sample data's loadings on user defined Dimensions from a PCA
+  input:
+    dimn - one of the dimensions to be plotted
+    dim2 - the other dimension to be plotted
+    iloc1 - the numerical index location of dimn
+    iloc2 - the numerical index location of dim2
+    pca_df - the dataframe holding the PCA results
+    indexer - the original dataframe used to create the PCA (before the normalization function)
+    title - user defined title
+   outputs:
+    a scatter plot of each sample points loadings over the user defined dimensions. Labels points with each sample index
+    
+    
+  
+ plot_eigen:
+  usage - Creates a bar chart of each dimensions eigen value ratio (shows the variation explained in the original dataset)
+  inputs:
+    pca_init - PCA initializer, returned in the init_pca function
+    title - title of the bar chart
+  outputs:
+    a bar chart showing the eigen value ratios, with labels
+    
+    
+    
+LU_recode:
+  usage - Recodes land use/land cover classification (limited usage, must be modified on a use case basis depending on the land cover types being classified)
+  inputs:
+    df_series - the data to be reclassified
+   outputs:
+    the recoded data
