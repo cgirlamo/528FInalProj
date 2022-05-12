@@ -20,4 +20,14 @@ Packages needed:
 Functions:
 
 split_col:
+  usage - split a dataframe based on userdefined observations
+  inputs:
+    ctrl_list - a list of strings corresponding to the index values to split the data by
+    data - the full dataframe you wish to split
+  outputs:
+    ctrl_data - the data that has the indexes the user specifies
+    rest_data - the rest of the data
+
+
+sub_ctrl:
   
