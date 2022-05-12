@@ -99,3 +99,17 @@ LU_recode:
     df_series - the data to be reclassified
    outputs:
     the recoded data
+    
+    
+    
+    
+join_buff:
+  usage - creates a buffer from a shapefile with the original shapefile attributes
+  inputs:
+    buff_size - the desired buffer size, in units based on join_file's crs
+    join_file - the file used to create the buffer
+    idfield - the primary key from the join_file, used to drop any duplicates in the final spatial join
+    
+    
+    
+
