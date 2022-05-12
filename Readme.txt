@@ -30,4 +30,12 @@ split_col:
 
 
 sub_ctrl:
-  
+  usage - subtracts a statistic determined by a dataframe from other observations. Likely from a control dataset and actual data
+  inputs:
+    controls - the control dataframe (must have the same columns as data)
+    data - the data the control statistic will be taken from 
+    stat - the statistic performed on the controls variable (count, mean, std, min, 25%, 50%, 75% max)
+    
+
+
+    
